@@ -1,0 +1,43 @@
+{
+   "type": "object",
+   "required": [
+     "id",
+     "timestamp",
+     "message",
+     "sourceUserId",
+     "destinationUserId"
+   ],
+   "properties": {
+     "id": {
+       "type": "string",
+       "examples": [
+         "8911889c-8b93-4786-bbf3-50d56868b309"
+       ]
+     },
+     "timestamp": {
+       "type": "integer",
+       "examples": [
+         1549670552842
+       ]
+     },
+     "message": {
+       "type": "string",
+       "examples": [
+         "Mesh wire keeps chicks inside."
+       ]
+     },
+     "sourceUserId": {
+       "type": "integer",
+       "examples": [
+         26946
+       ]
+     },
+     "destinationUserId": {
+       "type": "integer",
+       "examples": [
+         35682
+       ]
+     }
+   }
+ }
+
